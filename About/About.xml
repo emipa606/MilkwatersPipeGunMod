@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Milkwater's Pipe Gun Mod (Continued)</name>
+  <packageId>Mlie.MilkwatersPipeGunMod</packageId>
+  <author>Milkwater</author>
+  <url>https://github.com/emipa606/MilkwatersPipeGunMod</url>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
+Update of Milkwaters mod https://steamcommunity.com/sharedfiles/filedetails/?id=3420588766
+
+- Added Translation strings
+- Added mod-settings to set the jam-chance
+
+[img]https://img.litet.net/logos/Notice.png[/img]
+
+[table]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/MilkwatersPipeGunMod][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
+[h1]Welcome to my new mod![/h1]
+
+So... what does it add?
+
+This mod adds 4 new pipe guns to your game.
+
+Pipe Revolver (15 steel, 1 component) &amp;amp; Pipe Pistol (15 steel, 1 component)
+[img]https://img.litet.net/nDIzuR4.png[/img]
+
+Pipe Rifle (30 steel, 2 components) &amp;amp; Pipe LMG (50 steel, 4 components)
+[img]https://img.litet.net/TzRpvGu.png[/img]
+
+NEW! Pipe Shotgun (30 steel, 2 components)
+[img]https://img.litet.net/rdFEU1w.png[/img]
+
+[h1]What is a pipe gun?[/h1]
+Pipe guns are identical to their normal counterparts, but they are cheaper and have a 15% chance to jam, cancelling the shot and ending their burst early. When I say counterpart I mean that each gun is based on a vanilla gun, same stats but just with a 15% chance to jam. So like the pipe revolver is based on the revolver, the pipe rifle is based on the bolt-action rifle, etc.
+
+The only mechanically different weapon is the pipe LMG, which has a bayonet for stab damage. To balance this, its crafting cost is higher than other pipe guns.
+
+Raiders will use them sometimes and you can craft them by going through the normal research tree.
+
+[h1]FAQ[/h1]
+[b]Q: Are these guns from Fallout?![/b]
+A: Yes! What a cool game!
+
+[b]Q: So... what's the point?[/b]
+A: I thought it was weird I never craft guns because raiders just bring me good loot, so I made some guns that are reliable for like a single raid, but continued use is difficult. So basically it will be harder to find better guns in raids, leading you to craft them instead!
+
+[b]Q: CE?[/b]
+A: Find the patch here: https://steamcommunity.com/sharedfiles/filedetails/?id=3422722331
+
+[b]Q: Can we change the chance to jam?[/b]
+A: In the future I want to learn how to make mod settings, so this can be realized!
+
+[b]Q: I have a suggestion/want to work together![/b]
+A: Awesome! Leave a comment and I will read it!
+
+[h1]Credits![/h1]
+- Bethesda: Sounds
+- Milkwater: Artwork &amp;amp; Coding
+
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+</ModMetaData>

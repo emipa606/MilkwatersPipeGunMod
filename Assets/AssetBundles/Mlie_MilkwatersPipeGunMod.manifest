@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1639722643
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 72418737bbd68b7e6eaaa1521e4f6301
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 72418737bbd68b7e6eaaa1521e4f6301
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Textures/Things/Weapons/m_pipe_rifle.png
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Sounds/Weapons/m_pipe_pistol_shot.wav
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Sounds/Weapons/m_pipe_rifle_shot.wav
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Textures/Things/Weapons/m_pipe_shotgun.png
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Textures/Things/Weapons/m_pipe_revolver.png
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Sounds/Weapons/m_shot_jammed.mp3
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Textures/Things/Weapons/m_pipe_lmg.png
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Sounds/Weapons/m_pipe_revolver_shot.wav
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Sounds/Weapons/m_pipe_shotgun_shot.wav
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Sounds/Weapons/m_pipe_lmg_shot.wav
+- Assets/Data/Mlie.MilkwatersPipeGunMod/Textures/Things/Weapons/m_pipe_pistol.png
+Dependencies: []

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{f1a5803f-b3ac-414e-a845-0d3a3bc4a3a9}") = "PipeGuns", "PipeGuns\PipeGuns.csproj", "{d76f34ce-7ff6-4db2-a6c2-2869a4ffc0ef]}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{d76f34ce-7ff6-4db2-a6c2-2869a4ffc0ef}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d76f34ce-7ff6-4db2-a6c2-2869a4ffc0ef}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d76f34ce-7ff6-4db2-a6c2-2869a4ffc0ef}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{d76f34ce-7ff6-4db2-a6c2-2869a4ffc0ef}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ff962a6f-647d-439b-98b9-efec9b6f0f18}
+	EndGlobalSection
+EndGlobal

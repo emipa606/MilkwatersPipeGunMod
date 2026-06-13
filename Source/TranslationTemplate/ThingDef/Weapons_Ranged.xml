@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: pipe LMG -->
+  <Milkwater_Pipe_LMG.label>pipe LMG</Milkwater_Pipe_LMG.label>
+  <!-- EN: A crudely made gas-operated light machine gun. It has long bursts of fire, but will jam frequently. It also includes a bayonet attachment for short range combat. -->
+  <Milkwater_Pipe_LMG.description>A crudely made gas-operated light machine gun. It has long bursts of fire, but will jam frequently. It also includes a bayonet attachment for short range combat.</Milkwater_Pipe_LMG.description>
+  <!-- EN: stock -->
+  <Milkwater_Pipe_LMG.tools.stock.label>stock</Milkwater_Pipe_LMG.tools.stock.label>
+  <!-- EN: bayonet -->
+  <Milkwater_Pipe_LMG.tools.bayonet.label>bayonet</Milkwater_Pipe_LMG.tools.bayonet.label>
+  <!-- EN: pipe LMG -->
+  <Milkwater_Pipe_LMG.verbs.Verb_ShootJammable.label>pipe LMG</Milkwater_Pipe_LMG.verbs.Verb_ShootJammable.label>
+  <!-- EN: pipe autopistol -->
+  <Milkwater_Pipe_Pistol.label>pipe autopistol</Milkwater_Pipe_Pistol.label>
+  <!-- EN: A crudely made blowback-operated self-loading pistol. It's quick to fire, but jams quite often. -->
+  <Milkwater_Pipe_Pistol.description>A crudely made blowback-operated self-loading pistol. It's quick to fire, but jams quite often.</Milkwater_Pipe_Pistol.description>
+  <!-- EN: grip -->
+  <Milkwater_Pipe_Pistol.tools.grip.label>grip</Milkwater_Pipe_Pistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <Milkwater_Pipe_Pistol.tools.barrel.label>barrel</Milkwater_Pipe_Pistol.tools.barrel.label>
+  <!-- EN: pipe autopistol -->
+  <Milkwater_Pipe_Pistol.verbs.Verb_ShootJammable.label>pipe autopistol</Milkwater_Pipe_Pistol.verbs.Verb_ShootJammable.label>
+  <!-- EN: pipe revolver -->
+  <Milkwater_Pipe_Revolver.label>pipe revolver</Milkwater_Pipe_Revolver.label>
+  <!-- EN: A crudely made double-action revolver. It packs a punch, but jams quite often. -->
+  <Milkwater_Pipe_Revolver.description>A crudely made double-action revolver. It packs a punch, but jams quite often.</Milkwater_Pipe_Revolver.description>
+  <!-- EN: grip -->
+  <Milkwater_Pipe_Revolver.tools.grip.label>grip</Milkwater_Pipe_Revolver.tools.grip.label>
+  <!-- EN: barrel -->
+  <Milkwater_Pipe_Revolver.tools.barrel.label>barrel</Milkwater_Pipe_Revolver.tools.barrel.label>
+  <!-- EN: pipe revolver -->
+  <Milkwater_Pipe_Revolver.verbs.Verb_ShootJammable.label>pipe revolver</Milkwater_Pipe_Revolver.verbs.Verb_ShootJammable.label>
+  <!-- EN: pipe rifle -->
+  <Milkwater_Pipe_Rifle.label>pipe rifle</Milkwater_Pipe_Rifle.label>
+  <!-- EN: A crudely made bolt-action rifle. It has great range and damage, but jams quite frequently. -->
+  <Milkwater_Pipe_Rifle.description>A crudely made bolt-action rifle. It has great range and damage, but jams quite frequently.</Milkwater_Pipe_Rifle.description>
+  <!-- EN: stock -->
+  <Milkwater_Pipe_Rifle.tools.stock.label>stock</Milkwater_Pipe_Rifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milkwater_Pipe_Rifle.tools.barrel.label>barrel</Milkwater_Pipe_Rifle.tools.barrel.label>
+  <!-- EN: pipe rifle -->
+  <Milkwater_Pipe_Rifle.verbs.Verb_ShootJammable.label>pipe rifle</Milkwater_Pipe_Rifle.verbs.Verb_ShootJammable.label>
+  <!-- EN: pipe shotgun -->
+  <Milkwater_Pipe_Shotgun.label>pipe shotgun</Milkwater_Pipe_Shotgun.label>
+  <!-- EN: An crude shotgun that emits a tight-packed spray of pellets. Deadly, but it can jam quite often. -->
+  <Milkwater_Pipe_Shotgun.description>An crude shotgun that emits a tight-packed spray of pellets. Deadly, but it can jam quite often.</Milkwater_Pipe_Shotgun.description>
+  <!-- EN: stock -->
+  <Milkwater_Pipe_Shotgun.tools.stock.label>stock</Milkwater_Pipe_Shotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <Milkwater_Pipe_Shotgun.tools.barrel.label>barrel</Milkwater_Pipe_Shotgun.tools.barrel.label>
+  <!-- EN: pipe shotgun -->
+  <Milkwater_Pipe_Shotgun.verbs.Verb_Shoot.label>pipe shotgun</Milkwater_Pipe_Shotgun.verbs.Verb_Shoot.label>
+</LanguageData>

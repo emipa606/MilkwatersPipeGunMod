@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PiGu.modVersion>Installed mod-version: {0}</PiGu.modVersion>
+  <PiGu.jammed>JAMMED!</PiGu.jammed>
+  <PiGu.jamChance>Chance of jamming: {0}</PiGu.jamChance>
+</LanguageData>
