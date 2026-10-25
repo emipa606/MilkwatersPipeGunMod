@@ -1,84 +1,42 @@
-# Copilot Instructions for Milkwater's Pipe Gun Mod (Continued)
+# GitHub Copilot Instructions for Milkwater's Pipe Gun Mod (Continued)
+
+Welcome to the GitHub Copilot instructions for the Milkwater's Pipe Gun Mod (Continued). This mod adds four new pipe guns to the game, which are cheaper and have a 15% chance to jam. The mod also includes mod settings to adjust the jam chance.
 
 ## Mod Overview and Purpose
 
-Milkwater's Pipe Gun Mod (Continued) enhances the gameplay of RimWorld by introducing a series of low-cost, makeshift firearms known as pipe guns. Adapted from the popular Fallout series, these weapons offer players affordable alternatives to their standard counterparts, perfect for single-use scenarios or when resources are limited. The mod provides a fresh crafting experience and motivates players to engage more actively in weapon production, especially since these guns are prone to jamming, adding a layer of strategic decision-making.
+The Milkwater's Pipe Gun Mod (Continued) adds four new pipe guns to the game. These guns are cheaper and have a 15% chance to jam, which can make them unreliable for continued use. The mod also includes mod settings to adjust the jam chance.
 
 ## Key Features and Systems
 
-- **New Weapons**: The mod introduces four types of pipe guns:
-  - **Pipe Revolver**: Crafted with 15 steel and 1 component.
-  - **Pipe Pistol**: Crafted with 15 steel and 1 component.
-  - **Pipe Rifle**: Crafted with 30 steel and 2 components.
-  - **Pipe LMG**: Crafted with 50 steel and 4 components, featuring a bayonet for stab damage.
-  - **Pipe Shotgun**: Newly added, crafted with 30 steel and 2 components.
+The mod adds four new pipe guns to the game:
 
-- **Jamming Mechanic**: All pipe guns have a 15% chance to jam. This mechanic simulates the use of lower-quality materials and provides a gameplay balance by matching vanilla weapons at a reduced reliability.
+* Pipe Revolver
+* Pipe Pistol
+* Pipe Rifle
+* Pipe LMG
+* Pipe Shotgun
 
-- **Crafting and Availability**: These weapons are integrated into the normal research tree. Raiders may also use them, providing additional opportunities for acquisition.
+Each of these guns is based on a vanilla gun, with the same stats but with a 15% chance to jam. The only mechanically different weapon is the pipe LMG, which has a bayonet for stab damage.
 
 ## Coding Patterns and Conventions
 
-- **C# Practices**: Utilize `Verb_ShootJammable` for implementing the jamming mechanic in firearms. Ensure code is modular and adhere to SOLID principles:
-  - **Single Responsibility**: `Verb_ShootJammable` should only handle the shooting and jamming logic.
-  - **Open/Closed**: Make classes extensible for future enhancements.
-
-- **XML File Structure**: Organized into logical segments:
-  - `SoundDefs.xml` for sound definitions.
-  - `Weapons_Ranged.xml` for weapon configs.
-  - `About.xml` for mod metadata.
-  
-- **Naming Conventions**: Use `PascalCase` for public members and `camelCase` for local variables and parameters within methods.
+The mod is written in C# and XML. The code follows the standard RimWorld coding patterns and conventions. The mod includes three C# files and four XML files.
 
 ## XML Integration
 
-- Define new weapons in `Weapons_Ranged.xml`:
-  xml
-  <ThingDef ParentName="BaseGun">
-    <defName>PipeRevolver</defName>
-    <!-- Additional properties -->
-  </ThingDef>
-  
-
-- Integrate sound effects via `SoundDefs.xml`:
-  xml
-  <SoundDef>
-    <defName>PipeGun_Fire</defName>
-    <!-- Sound properties -->
-  </SoundDef>
-  
-
-- Ensure all XML elements are properly matched to avoid parsing errors.
+The mod includes four XML files, which define the new pipe guns and their stats. The XML files are located in the `Defs` folder of the mod. The `SoundDefs.xml` file defines the sounds for the new pipe guns, while the `Weapons_Ranged.xml` file defines the stats for the new pipe guns.
 
 ## Harmony Patching
 
-- Use Harmony for runtime adjustments without altering original game code:
-  csharp
-  [HarmonyPatch(typeof(Verb_Shoot))]
-  [HarmonyPatch("TryCastShot")]
-  class Patch_Verb_Shoot_TryCastShot
-  {
-      static void Prefix()
-      {
-          // Custom jamming logic
-      }
-  }
-  
-
-- Always ensure patches are non-destructive and reversible.
+The mod uses Harmony patching to modify the vanilla game code. The `Verb_ShootJammable.cs` file defines the `Verb_ShootJammable` class, which is used to add the jam chance to the pipe guns. The `SettingsTemplateSettings.cs` and `SettingsTemplateMod.cs` files define the mod settings and the UI for the mod settings.
 
 ## Suggestions for Copilot
 
-- Automate JSON-to-XML conversion for weapon attributes.
-- Use data-driven approach to add new weapons by creating weapon templates in XML.
-- Implement methods or extensions in C# (e.g., utility method for jamming probability).
-- Create code snippets for repetitive XML patterns, such as `ThingDef` entries.
-- Suggest potential improvements for upcoming mod settings feature to customize jamming chances.
+* When working with XML files, use the `Defs` folder as a reference to find the correct XML structure.
+* When working with Harmony patching, use the `Harmony` library as a reference to find the correct patching methods.
+* When working with mod settings, use the `ModSettings` class as a reference to find the correct methods for exposing data and saving settings.
 
-By adhering to these guidelines and patterns, you can ensure the development of Milkwater's Pipe Gun Mod continues to be robust, flexible, and easily maintainable.
-
-
-This Copilot instruction file provides a comprehensive guideline for anyone looking to contribute to or understand the functionality and development patterns of Milkwater's Pipe Gun Mod (Continued). It lays the groundwork for a consistent and effective modding workflow.
+Feel free to use GitHub Copilot to help you with your coding tasks. If you have any questions or suggestions, please leave a comment and I will read it!
 
 ## Project Solution Guidelines
 - Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
@@ -92,4 +50,6 @@ This Copilot instruction file provides a comprehensive guideline for anyone look
 ## Hard rules (must follow)
 - Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
 - Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
 

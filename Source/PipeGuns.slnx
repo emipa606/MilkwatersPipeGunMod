@@ -9,14 +9,13 @@
   <Folder Name="/XML/About/">
     <File Path="../About/about.xml" />
   </Folder>
-  <Folder Name="/XML/" />
-  <Folder Name="/XML/1.6/" />
-  <Folder Name="/XML/1.6/Defs/" />
-  <Folder Name="/XML/1.6/Defs/SoundDefs/">
-    <File Path="../1.6/Defs/SoundDefs/SoundDefs.xml" />
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Text.xml" />
   </Folder>
-  <Folder Name="/XML/1.6/Defs/ThingDefs_Misc/" />
-  <Folder Name="/XML/1.6/Defs/ThingDefs_Misc/Weapons/">
-    <File Path="../1.6/Defs/ThingDefs_Misc/Weapons/Weapons_Ranged.xml" />
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Misc/Weapons/">
+    <File Path="../1.7/Defs/ThingDefs_Misc/Weapons/Weapons_Ranged.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/SoundDefs.xml" />
   </Folder>
 </Solution>

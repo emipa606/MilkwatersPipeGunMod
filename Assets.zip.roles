@@ -1,0 +1,11 @@
+Sounds/Weapons/m_pipe_lmg_shot.wav raw
+Sounds/Weapons/m_pipe_pistol_shot.wav raw
+Sounds/Weapons/m_pipe_revolver_shot.wav raw
+Sounds/Weapons/m_pipe_rifle_shot.wav raw
+Sounds/Weapons/m_pipe_shotgun_shot.wav raw
+Sounds/Weapons/m_shot_jammed.mp3 raw
+Textures/Things/Weapons/m_pipe_lmg.png.dds image:Default
+Textures/Things/Weapons/m_pipe_pistol.png.dds image:Default
+Textures/Things/Weapons/m_pipe_revolver.png.dds image:Default
+Textures/Things/Weapons/m_pipe_rifle.png.dds image:Default
+Textures/Things/Weapons/m_pipe_shotgun.png.dds image:Default
